@@ -1,2 +1,2 @@
-%p tttt
-= link_to "ログアウト", destroy_user_session_path, method: :delete
+- @users.each do |user|
+  = user.role
