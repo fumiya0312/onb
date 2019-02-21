@@ -1,2 +1,4 @@
-- @users.each do |user|
-  = user.role
+- if current_user.present?
+  = current_user.id
+- else
+  %p だれもいません

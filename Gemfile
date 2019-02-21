@@ -64,3 +64,7 @@ gem 'devise'
 gem 'haml-rails'
 gem 'erb2haml'
 gem 'cancancan'
+gem 'omniauth'
+gem "omniauth-google-oauth2"
+gem 'dotenv'
+gem 'dotenv-rails'

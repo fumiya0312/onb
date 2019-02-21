@@ -1,2 +1,5 @@
-= @user.role
+- if current_user.present?
+  = current_user.id
+- else
+  %p だれもいません
 = link_to "ログアウト", destroy_user_session_path, method: :delete
