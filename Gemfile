@@ -68,3 +68,4 @@ gem 'omniauth'
 gem "omniauth-google-oauth2"
 gem 'dotenv'
 gem 'dotenv-rails'
+gem 'enumerize'
